@@ -111,7 +111,7 @@ local function I()
 		A = a
 	else
 		A = false
-		warn("[AirFlow] lucide icons unavailable: " .. tostring(a))
+		warn("[] lucide icons unavailable: " .. tostring(a))
 	end
 	return A
 end
@@ -2419,7 +2419,7 @@ function f.Window(ab, k)
 	d({
 		Position = UDim2.fromOffset(60, 25),
 		Size = UDim2.new(1, -70, 0, 20),
-		Text = k.Title or "Airflow",
+		Text = k.Title or "Made by @a1j :)",
 		TextSize = 20,
 		Parent = J,
 	})
