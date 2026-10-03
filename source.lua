@@ -2419,14 +2419,14 @@ function f.Window(ab, k)
 	d({
 		Position = UDim2.fromOffset(60, 25),
 		Size = UDim2.new(1, -70, 0, 20),
-		Text = k.Title or "Made by @a1j :)",
+		Text = k.Title or "Light hub",
 		TextSize = 20,
 		Parent = J,
 	})
 	d({
 		Position = UDim2.fromOffset(60, 45),
 		Size = UDim2.new(1, -70, 0, 14),
-		Text = k.Subtitle or "",
+		Text = k.Subtitle or "Made by @a1j :)",
 		TextSize = 13,
 		FontFace = i.Regular,
 		TextColor3 = a.Muted,
