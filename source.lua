@@ -2900,7 +2900,7 @@ function g:_showLoader(g)
 	d({
 		Position = UDim2.fromOffset(78, 30),
 		Size = UDim2.new(1, -100, 0, 22),
-		Text = g.LoadingTitle or g.Title or "Airflow",
+		Text = g.LoadingTitle or g.Title or "Airflow ui",
 		TextSize = 20,
 		Parent = f,
 	})
@@ -3061,7 +3061,7 @@ function g:_createOpenButton(j)
 		Position = UDim2.fromOffset(28, 0),
 		Size = UDim2.new(0, 0, 1, 0),
 		AutomaticSize = Enum.AutomaticSize.X,
-		Text = j.Title or "Airflow",
+		Text = j.Title or "Made by @a1j :)",
 		TextSize = 13,
 		TextTruncate = Enum.TextTruncate.None,
 		ZIndex = 31,
