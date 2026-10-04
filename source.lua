@@ -2408,7 +2408,7 @@ function f.Window(ab, k)
 	local J = c(p, { Name = "Header", Size = UDim2.new(1, 0, 0, 72), BackgroundTransparency = 1, Parent = C })
 	local X = c("ImageLabel", {
 		Position = UDim2.fromOffset(22, 27),
-		Size = UDim2.fromOffset(30, 28),
+		Size = UDim2.fromOffset(40, 38),
 		BackgroundTransparency = 1,
 		Image = "",
 		ImageColor3 = a.Accent,
