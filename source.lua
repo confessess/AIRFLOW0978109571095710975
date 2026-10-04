@@ -96,7 +96,7 @@ f.Theme = {
 	Error = Color3.fromRGB(240, 120, 120),
 }
 f.Assets =
-	{ Shadow = "rbxassetid://6014261993", Glow = "rbxassetid://8992230677", Logo = "rbxassetid://103859712365480" }
+	{ Shadow = "rbxassetid://6014261993", Glow = "rbxassetid://8992230677", Logo = "rbxassetid://107935387678848" }
 local A
 local function I()
 	if A ~= nil then
