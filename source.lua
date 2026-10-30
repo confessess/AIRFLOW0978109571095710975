@@ -2419,7 +2419,7 @@ function f.Window(ab, k)
 	d({
 		Position = UDim2.fromOffset(60, 25),
 		Size = UDim2.new(1, -70, 0, 20),
-		Text = k.Title or "Light hub",
+		Text = k.Title or "Houhou",
 		TextSize = 20,
 		Parent = J,
 	})
@@ -2900,7 +2900,7 @@ function g:_showLoader(g)
 	d({
 		Position = UDim2.fromOffset(78, 30),
 		Size = UDim2.new(1, -100, 0, 22),
-		Text = g.LoadingTitle or g.Title or "Light hub",
+		Text = g.LoadingTitle or g.Title or "Houhou",
 		TextSize = 20,
 		Parent = f,
 	})
