@@ -81,22 +81,22 @@ local function n(e, b, a, d, g)
 	return a
 end
 f.Theme = {
-	Background = Color3.fromRGB(12, 17, 28),
-    Surface = Color3.fromRGB(17, 24, 38),
-    Surface2 = Color3.fromRGB(22, 31, 48),
-    Surface3 = Color3.fromRGB(34, 47, 68),
-    Stroke = Color3.fromRGB(35, 49, 72),
-  	StrokeHover = Color3.fromRGB(75, 125, 190),
-	Accent = Color3.fromRGB(110, 185, 255),
-	AccentDark = Color3.fromRGB(15, 27, 45),
-	Text = Color3.fromRGB(230, 240, 255),
-	Muted = Color3.fromRGB(130, 150, 175),
+	Background = Color3.fromRGB(10, 17, 13),
+    Surface = Color3.fromRGB(14, 24, 18),
+    Surface2 = Color3.fromRGB(19, 33, 25),
+    Surface3 = Color3.fromRGB(30, 52, 40),
+    Stroke = Color3.fromRGB(32, 56, 43),
+    StrokeHover = Color3.fromRGB(86, 160, 120),
+    Accent = Color3.fromRGB(111, 211, 162),
+    AccentDark = Color3.fromRGB(13, 30, 22),
+    Text = Color3.fromRGB(232, 246, 238),
+    Muted = Color3.fromRGB(132, 158, 145),
 	Warning = Color3.fromRGB(240, 176, 108),
 	Success = Color3.fromRGB(150, 220, 170),
 	Error = Color3.fromRGB(240, 120, 120),
 }
 f.Assets =
-	{ Shadow = "rbxassetid://6014261993", Glow = "rbxassetid://8992230677", Logo = "rbxassetid://107935387678848" }
+	{ Shadow = "rbxassetid://6014261993", Glow = "rbxassetid://8992230677", Logo = "rbxassetid://96601554047201" }
 local A
 local function I()
 	if A ~= nil then
